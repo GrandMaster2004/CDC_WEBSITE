@@ -4,17 +4,25 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 const CertificateVerifier = () => {
-  const [certificateId, setCertificateId] = useState('');
-  const [verificationResult, setVerificationResult] = useState('');
-
+  const [certificateId, setCertificateId] = useState('####');
+  const [verify, setVerify] = useState(false);
+  const [msg,setmsg]=useState('');
   const handleVerify = async () => {
+    // console.log(certificateId);
     try {
-      const response = await axios.post('http://localhost:5000/verify', { certificateId });
-      setVerificationResult(response.data.message);
+      const response = await axios.get(`http://localhost:5000/verify/${certificateId}`, { certificateId });
+      setVerify(true);
+      console.log(response.data);
+      if(verify){
+        setmsg('Certificate found');
+      }
     } catch (error) {
-      console.error('Error verifying certificate ID:', error);
-      setVerificationResult('Failed to verify certificate ID');
+    
+      console.error('Error verifying certificate ID:');
+      setVerify(false);
+   
     }
+   
   };
 
   return (
@@ -29,7 +37,7 @@ const CertificateVerifier = () => {
       />
       <br/>
       <button onClick={handleVerify}>Verify</button>
-      {verificationResult && <p>{verificationResult}</p>}
+      {verify ? <h1>{msg}</h1>:<h1>Enter valid Certificate Id</h1>}
     </div>
   );
 };

@@ -14,7 +14,7 @@ const Herocard = () => {
          <span className="club_text" >Club</span>
        </div>
        <div className="main_right">
-        <img src="img/laptop2.png" alt="" />
+        <img src="img/laptop1.png" alt="" />
          {/* <div className="circle_outer">
             <span className="rotation">
               <img src="img/icon_rotation1.svg" className="goal" alt="img" />

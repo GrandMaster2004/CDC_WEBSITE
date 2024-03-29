@@ -70,5 +70,9 @@
     cursor: none;
     /* color: white; */
     margin: 2rem 0;
+
+}
+.cards{
+    width: min-content;
 }
 }

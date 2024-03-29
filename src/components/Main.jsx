@@ -10,7 +10,9 @@ import About from './pages/About/About.jsx';
 import Notfound from './common/Notfound/Notfound.jsx';
 import Foot from './common/Foot/Foot.jsx';
 import Loader from './common/Loader/Loader.jsx';
-import Query from '../components/pages/Contest/Query.jsx'
+import Query from '../components/pages/Contest/Query.jsx';
+import AdminForm from '../components/pages/Admin/Form'
+import Addcerti from '../components/pages/Admin/Addcerti'
 // import Contest from '../components/pages/Contest/Contest.jsx'
 import CertificateVerifier from './assets/Certificate/Certify.jsx';
 
@@ -60,6 +62,8 @@ function Main() {
               <Route exact path="/event" element={<Event />} />
               <Route exact path="/contest" element={<ContestList />} />
               <Route exact path="/query" element={<Query />} />
+              <Route exact path="/admin" element={<AdminForm />} />
+              <Route exact path="/admin/addcerti" element={<Addcerti />} />
               <Route exact path="/verify" element={<CertificateVerifier />} />
               <Route path="*" element={<Notfound />} />
             </Routes>
