@@ -5,7 +5,7 @@ const FacultyAdvisor = () => {
     <div>
         <div className="container" id="team">
                             <div className="row justify-content-center team-grp">
-                                <div className="col-lg-4 col-md-6 p-5" data-aos="flip-right" data-aos-duration="1000">
+                                <div className="col-lg-4 col-md-6 p-5" data-aos="flip-right" data-aos-duration="2000">
                                     <div className="team-1">
                                         <div className="pic">
                                             <img src="https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2Fassets%2FRktSir.jpeg?alt=media&token=080aaecd-b32c-4336-8f7b-6913bf515b74" className="img-fluid" alt="Profile" />

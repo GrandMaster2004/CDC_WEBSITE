@@ -1,6 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Contact.css"
+import emailjs from 'emailjs-com';
 function Contact() {
+  const [Name,setName]=useState("");
+  const [Email,setEmail]=useState("");
+  const [Msg,setMsg]=useState("");
+
+  const HandleMsg=async()=>{
+    try {
+      const templateParams = {
+        from_name: Name,
+        to_name: 'Recipient Name',
+        message: Msg,
+        reply_to: Email,
+      };
+
+      await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID');
+      console.log('Email sent successfully!');
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  }
   return (
     <div>
       <div className="container d-flex justify-content-center align-items-center">
@@ -14,28 +34,37 @@ function Contact() {
 
 
   <div className="form-group position-relative">
-    <label for="formName" className="d-block">
+    <label htmlFor="formName" className="d-block">
       <i className="icon" data-feather="user"></i>
     </label>
-    <input type="text" id="formName" className="form-control form-control-lg thick" placeholder="Name"/>
+    <input type="text" id="formName" className="form-control form-control-lg thick" placeholder="Name"
+    value={Name}
+    onChange={(e) => setName(e.target.value)}
+    />
   </div>
 
 
   <div className="form-group position-relative">
-    <label for="formEmail" className="d-block">
+    <label htmlFor="formEmail" className="d-block">
       <i className="icon" data-feather="mail"></i>
     </label>
-    <input type="email" id="formEmail" className="form-control form-control-lg thick" placeholder="E-mail"/>
+    <input type="email" id="formEmail" className="form-control form-control-lg thick" placeholder="E-mail"
+    value={Email}
+    onChange={(e) => setEmail(e.target.value)}
+    />
   </div>
 
  
   <div className="form-group message">
-    <textarea id="formMessage" className="form-control form-control-lg" rows="7" placeholder="Write your message here"></textarea>
+    <textarea id="formMessage" className="form-control form-control-lg" rows="7" placeholder="Write your message here" 
+    value={Msg}
+    onChange={(e) => setMsg(e.target.value)}
+    ></textarea>
   </div>
 
 
   <div className="text-center">
-    <button type="submit" className="btn btn-primary" tabIndex="-1">Send message</button>
+    <button type="submit" className="btn btn-primary" tabIndex="-1" onClick={HandleMsg}>Send message</button>
   </div>
         </form>
       </div>

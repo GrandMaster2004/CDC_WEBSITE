@@ -6,18 +6,30 @@
     display: flex;
     flex-wrap: wrap;
 }
+.space{
+        
+}
 .main_left{
     padding-top: 7rem;
-    font-size: 5.688rem;
-    max-width: 50%;
-    font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    font-size: 8rem;
+    font-weight: 400;
+    width: 100%;
+    font-family:fantasy;
     color: #fff;
+    text-transform: uppercase;
+    position: fixed;
+    /* transform: translateX(100%); */
+    z-index: 5;
+ 
+
 }
 .home{
     position: relative;
 }
 .main_right{
     padding-top: 4rem;
+    background: ('img/space.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +37,7 @@
 .main_right img{
     z-index: 2;
     width: auto;
-    height: 35rem;
+    /* height: 20rem; */
 }
 .circle_outer{
     border: 2px solid #323946;
