@@ -23,6 +23,8 @@ const Certificate = mongoose.model('Certificate', certificateSchema);
 app.use(bodyParser.json());
 
 // POST endpoint to verify certificate ID
+
+
 app.post('/verify', async (req, res) => {
   const { certificateId } = req.body;
 

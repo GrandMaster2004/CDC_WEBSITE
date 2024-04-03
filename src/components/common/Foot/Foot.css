@@ -25,7 +25,14 @@ body {
 
     width: 100%;
 }
-
+.navbar__logo{
+    height: 5rem;
+    width: auto;
+}
+.navbar__title{
+    height: 3rem;
+    width: auto;
+}
 .container {
     max-width: 100%;
     margin: auto;
