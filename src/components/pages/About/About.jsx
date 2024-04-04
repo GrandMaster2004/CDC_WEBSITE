@@ -10,8 +10,8 @@ function About() {
         <div className="left">
           <div>
             <div className="title">
-              <h2>Communicate.</h2>
-              <h2>Collaborate. Create.</h2>
+              <h2>COMMUNICATE.</h2>
+              <h2>DEVELOP. CREATE.</h2>
             </div>
             <div className="txt">
               Lorem ipsum dolor, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, repudiandae! sit amet consectetur 
@@ -22,7 +22,8 @@ function About() {
         </div>
         <div className="right">
           <div className="imgy">   
-          <img src="img/logo.png" alt="" />       </div>
+          <img src="img/logo.png" alt="" />    
+             </div>
         </div>
       </div>
       <Cards/>

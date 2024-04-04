@@ -22,7 +22,7 @@ const Animate = () => {
   }, []);
 
   return (
-    <div className='cont'>
+    <div className='conti'>
      
       <img className="astro1" src="img/astro2.png" alt="" style={{ position: 'fixed',zIndex:'1' }} />
       <img className="astro2" src="img/astro1.png" alt="" style={{ position: 'fixed',zIndex:'7' }} />

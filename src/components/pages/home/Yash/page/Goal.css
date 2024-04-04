@@ -63,6 +63,7 @@
 .title {
   font-size: 34px;
   color: aqua;
+  text-transform: uppercase;
 }
 
 /* @media (max-width: 974px) {

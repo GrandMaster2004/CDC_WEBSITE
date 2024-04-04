@@ -25,7 +25,7 @@ const Herocard = () => {
          <div className="home">
      
      <span className="top_shadow"></span>
-     <div className="main space" style={{background:'url(img/space.png) no-repeat cover'}}>
+     <div className="main space">
        <div className="main_left">
          Coders & Developers
          {/* <br /> */}

@@ -6,8 +6,14 @@
     display: flex;
     flex-wrap: wrap;
 }
+/* @import "../../../../public/img/space.png" */
 .space{
-        
+    width: 100%;
+        /* background: url('../../../../public/img/space.png'); */
+        /* background: url('https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif'); */
+        /* background-repeat: no-repeat; */
+        /* background-position: center;
+        background-size: contain; */
 }
 .main_left{
     padding-top: 7rem;
