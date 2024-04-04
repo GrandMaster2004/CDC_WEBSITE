@@ -1,9 +1,75 @@
-.astro1{
-width: auto;
-height: 30%;
-
+.astro1 {
+    width: auto;
+    height: 30%;
 }
-.astro2{
+
+.astro2 {
     width: auto;
     height: 70%;
 }
+
+
+.astro1 {
+    position: fixed;
+    z-index: 1;
+    left: 5%;
+}
+
+.astro2 {
+    position: fixed;
+    z-index: 7;
+}
+
+.asteroid {
+    width: auto;
+    height: 30%;
+    position: fixed;
+    z-index: 6;
+    left: 15%;
+    top: -20%;
+}
+
+.satellite {
+    width: auto;
+    height: 40%;
+    position: fixed;
+    z-index: 6;
+    left: 20%;
+    top: 70%;
+}
+.cont{
+    height: 200vh;
+}
+
+@media (max-width: 420px) {
+    .astro1 {
+        width: auto;
+        height: 15%;
+    }
+    .cont{
+    height: 100vh;
+}
+
+    .astro2 {
+        width: auto;
+        height: 40%;
+        z-index: 8;
+    }
+
+    .asteroid {
+        width: auto;
+        height: 30%;
+        left: 10%;
+    }
+
+    .satellite {
+        width: auto;
+        height: 20%;
+        top: 50%;
+        left: 15%;
+    }
+}
+
+    
+    
+  

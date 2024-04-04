@@ -22,11 +22,12 @@ const Animate = () => {
   }, []);
 
   return (
-    <div style={{ height: '200vh' }}>
-      <img className="astro1" src="img/astro2.png" alt="" style={{ position: 'fixed',zIndex:'1' ,left:'5%'}} />
+    <div className='cont'>
+     
+      <img className="astro1" src="img/astro2.png" alt="" style={{ position: 'fixed',zIndex:'1' }} />
       <img className="astro2" src="img/astro1.png" alt="" style={{ position: 'fixed',zIndex:'7' }} />
-      <img className="asteroid" src="img/asteroid.png" alt="" style={{width:'auto',height:'30%', position: 'fixed' ,zIndex:'6', left:'15%',top:'-20%'}} />
-      <img className="satellite" src="img/satellite.png" alt="" style={{width:'auto',height:'40%', position: 'fixed',zIndex:'6',left:'20%',top:'70%' }} />
+      <img className="asteroid" src="img/asteroid.png" alt="" style={{ position: 'fixed' ,zIndex:'6'}} />
+      <img className="satellite" src="img/satellite.png" alt="" style={{ position: 'fixed',zIndex:'6' }} />
     </div>
   );
 };

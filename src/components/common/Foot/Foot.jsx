@@ -19,19 +19,18 @@ function Foot() {
                 <h4>get help</h4>
                 <ul>
                     <li><a href="#">FAQ</a></li>
-                    <li><a href="#">shipping</a></li>
-                    <li><a href="#">returns</a></li>
-                    <li><a href="#">order status</a></li>
-                    <li><a href="#">payment options</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Query</a></li>
+                    <li><a href="#">Verify</a></li>
                 </ul>
             </div>
             <div className="footer-col">
-                <h4>online shop</h4>
+                <h4>know us</h4>
                 <ul>
                     <li><a href="#">download</a></li>
                     <li><a href="#">changelog</a></li>
                     <li><a href="#">github</a></li>
-                    <li><a href="#">all version</a></li>
+                    <li><a href="#">Telegram</a></li>
                 </ul>
             </div>
             <div className="footer-col">

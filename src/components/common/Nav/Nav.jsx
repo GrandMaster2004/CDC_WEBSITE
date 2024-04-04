@@ -25,9 +25,10 @@ function Navbar() {
 
   return (
     <div className="navbar">
+     
       <div className="container">
         <div className="navbar__brand">
-          <img src="./img/logo.png" alt="Logo" className="navbar__logo" />
+          {/* <img src="./img/logo.png" alt="Logo" className="navbar__logo" /> */}
           <span className="navbar__title">CDC (Coders & Developers Club)</span>
         </div>
         <button className="navbar__toggle" onClick={toggleNavbar}>

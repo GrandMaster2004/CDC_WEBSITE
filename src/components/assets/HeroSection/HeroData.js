@@ -4,11 +4,9 @@ const img3 =
 const img4 =
   "https://firebasestorage.googleapis.com/v0/b/evna-1c728.appspot.com/o/img%2Fcartoonimg.png?alt=media&token=503d170c-24f7-4620-ab48-0694f338f1f2";
 
-const img2 =
-  "https://firebasestorage.googleapis.com/v0/b/evna-1c728.appspot.com/o/img%2Fcredit-card.png?alt=media&token=c0673182-6632-410b-a5b1-c286759bbd21";
+const img2 ="img/side1.png";
 
-const img1 =
-  "https://firebasestorage.googleapis.com/v0/b/evna-1c728.appspot.com/o/img%2Fcodingimg.png?alt=media&token=a1fd6b98-adb4-4c7f-a454-194168de8823";
+const img1 ="img/side2.png";
 export const homeObjOne = {
   headline: "Coders & Developers Club",
   description:
@@ -28,20 +26,20 @@ export const homeObjTwo = {
   alt: "Vault",
 };
 
-export const homeObjThree = {
-  headline: "Why Join Coders & Developers Club",
-  description:
-    "Embark on a journey of discovery across a diverse array of technical subjects, where mastery is achieved through immersive workshops, hands-on training, and the creative pursuit of building impactful projects",
-  imgStart: "",
-  img: img3,
-  alt: "Vault",
-};
+// export const homeObjThree = {
+//   headline: "Why Join Coders & Developers Club",
+//   description:
+//     "Embark on a journey of discovery across a diverse array of technical subjects, where mastery is achieved through immersive workshops, hands-on training, and the creative pursuit of building impactful projects",
+//   imgStart: "",
+//   img: img3,
+//   alt: "Vault",
+// };
 
-export const homeObjFour = {
-  headline: "Grow With Coders & Developers Club",
-  description:
-    "Apply your new learnings and connections to build great solutions for local problems. Advance your skills, career and network. Give back to your community by helping others learn as well.",
-  imgStart: "start",
-  img: img4,
-  alt: "Vault",
-};
+// export const homeObjFour = {
+//   headline: "Grow With Coders & Developers Club",
+//   description:
+//     "Apply your new learnings and connections to build great solutions for local problems. Advance your skills, career and network. Give back to your community by helping others learn as well.",
+//   imgStart: "start",
+//   img: img4,
+//   alt: "Vault",
+// };

@@ -15,9 +15,11 @@ const CertificateVerifier = () => {
       console.log(response.data);
       if(verify){
         setmsg('Certificate found');
+      }else{
+        setmsg('Certificate not found');
       }
     } catch (error) {
-    
+      setmsg('Certificate not found');
       console.error('Error verifying certificate ID:');
       setVerify(false);
    

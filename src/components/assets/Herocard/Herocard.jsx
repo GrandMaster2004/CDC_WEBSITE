@@ -9,6 +9,7 @@ const Herocard = () => {
       const scrollPosition = window.scrollY;
       
       gsap.to('.main_left', { x: -scrollPosition, ease:"circ" });
+      gsap.to('.logo', { x: scrollPosition, ease:"pow2" });
      
     };
 
@@ -29,9 +30,12 @@ const Herocard = () => {
          Coders & Developers
          {/* <br /> */}
          <span className="club_text" > Club</span>
+         
        </div>
-       <div className="main_right">
        
+       <div className="main_right">
+       {/* <img src="img/logo.png" alt="" className="logo" /> */}
+      
      <Animat/>
        </div>
        <div className="circle_shadow">

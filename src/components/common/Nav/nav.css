@@ -17,6 +17,7 @@
     height: 5rem;
   }
   
+ 
   .nav {
 
    
@@ -43,13 +44,19 @@
     color: white;
     /* font-size: 15px; */
   }
+  .navbar__link:active{
+    color: #000000;
+    background-color: #fffffc;
+  }
   .navbar__link:hover{
     list-style: none;
     text-decoration: antiquewhite;
     /* background: white; */
-    border: 1px solid white;
-    color: #fffffc;
-    transition: .66s ease-in-out;
+    /* border-bottom: 1px solid white; */
+    color: #000000;
+    background-color: #fffffc;
+    
+    transition: .26s ease-in-out;
 
 
     

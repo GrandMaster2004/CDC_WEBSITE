@@ -6,19 +6,23 @@ function Contact() {
   const [Email,setEmail]=useState("");
   const [Msg,setMsg]=useState("");
 
-  const HandleMsg=async()=>{
-    try {
-      const templateParams = {
-        from_name: Name,
-        to_name: 'Recipient Name',
-        message: Msg,
-        reply_to: Email,
-      };
+  const HandleMsg=async(e)=>{
+    e.preventDefault();
 
-      await emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams, 'YOUR_USER_ID');
-      console.log('Email sent successfully!');
+    try {
+      await emailjs.send('adkumargmail', 'template_o3q8fxc', {
+        from_name: Name,
+        from_email: Email,
+        message: Msg
+      }, '96KwWOj585iomGuyD');
+      
+      alert('Email sent successfully');
+      setName('');
+      setEmail('');
+      setMsg('');
     } catch (error) {
-      console.error('Error sending email:', error);
+      console.error('Failed to send email:', error);
+      alert('Error sending email');
     }
   }
   return (
