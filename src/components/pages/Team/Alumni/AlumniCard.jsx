@@ -4,7 +4,7 @@ const TeamCard = ({ member }) => {
   return (
     <div
       className="col-lg-3 col-md-6 p-5"
-      data-aos="fade-up"
+      
      
     >
       <div className="team-1">
