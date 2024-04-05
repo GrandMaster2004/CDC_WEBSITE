@@ -3,9 +3,9 @@ import React from "react";
 const TeamCard = ({ member }) => {
   return (
     <div
-      className="col-lg-4 col-md-6 p-5"
-      data-aos="fade-down"
-      data-aos-duration="1000"
+      className="col-lg-3 col-md-6 p-5"
+      data-aos="fade-up"
+     
     >
       <div className="team-1">
         <div className="pic">

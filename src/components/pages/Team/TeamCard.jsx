@@ -8,7 +8,7 @@ const TeamCard = ({ member }) => {
     Aos.init({duration:2000});
   }, []);
   return (
-    <div className="col-lg-3 col-md-6 p-5 teamcard" data-aos="fade-up" data-aos-duration="1000">
+    <div className="col-lg-3 col-md-6 p-5 teamcard" data-aos="fade-up">
       <div className="team-1">
         <div className="pic">
           <img src={member.imgLink} className="img-fluid" alt="Profile" />

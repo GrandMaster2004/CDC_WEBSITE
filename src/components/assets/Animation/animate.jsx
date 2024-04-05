@@ -6,12 +6,14 @@ const Animate = () => {
     const moveElement = () => {
       const scrollPosition = window.scrollY;
       
-      gsap.to('.astro1', { x: scrollPosition, ease: 'none' });
-      gsap.to('.astro2', { x: -scrollPosition, ease: 'none' });
-  gsap.to('.asteroid', { x: scrollPosition, y: scrollPosition, ease: 'none' });
-  gsap.to('.satellite', { x:scrollPosition, y: -scrollPosition, ease: 'none' });
-  gsap.to('.astro1', { y: Math.sin(scrollPosition * 0.1) * 15, ease: 'bounce' });
-  gsap.to('.astro2', { y: Math.cos(scrollPosition * 0.1) * 15, ease: 'bounce' });
+      gsap.to('.js', { x: scrollPosition, ease: 'none' });
+      gsap.to('.cpp', { x: -scrollPosition, ease: 'none' });
+  gsap.to('.python', { x: scrollPosition, y: scrollPosition, ease: 'none' });
+  gsap.to('.c', { x: -scrollPosition, y: -scrollPosition, ease: 'none' });
+  gsap.to('.vscode', { y: -scrollPosition, ease: 'none' });
+  gsap.to('.java', { x:scrollPosition, y: -scrollPosition, ease: 'none' });
+  gsap.to('.js', { y: Math.sin(scrollPosition * 0.1) * 15, ease: 'none' });
+  gsap.to('.cpp', { y: Math.cos(scrollPosition * 0.1) * 15, ease: 'none' });
     };
 
     window.addEventListener('scroll', moveElement);
@@ -24,10 +26,12 @@ const Animate = () => {
   return (
     <div className='conti'>
      
-      <img className="astro1" src="img/astro2.png" alt="" style={{ position: 'fixed',zIndex:'1' }} />
-      <img className="astro2" src="img/astro1.png" alt="" style={{ position: 'fixed',zIndex:'7' }} />
-      <img className="asteroid" src="img/asteroid.png" alt="" style={{ position: 'fixed' ,zIndex:'6'}} />
-      <img className="satellite" src="img/satellite.png" alt="" style={{ position: 'fixed',zIndex:'6' }} />
+      <img className="js" src="img/techstack/js.png" alt="" style={{ position: 'fixed',zIndex:'1' }} />
+      <img className="cpp" src="img/techstack/c++.png" alt="" style={{ position: 'fixed',zIndex:'7' }} />
+      <img className="python" src="img/techstack/python.png" alt="" style={{ position: 'fixed' ,zIndex:'6'}} />
+      <img className="c" src="img/techstack/c.png" alt="" style={{ position: 'fixed' ,zIndex:'2'}} />
+      <img className="vscode" src="img/techstack/vscode.png" alt="" style={{ position: 'fixed' ,zIndex:'8'}} />
+      <img className="java" src="img/techstack/java.png" alt="" style={{ position: 'fixed',zIndex:'6' }} />
     </div>
   );
 };
