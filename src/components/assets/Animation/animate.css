@@ -7,7 +7,7 @@
     width: auto;
     left: 75%;
     height: 25%;
-    top: 26%;
+    top: 8%;
 }
 
 
@@ -34,7 +34,7 @@
 }
 .python {
     width: auto;
-    height: 30%;
+    height: 45%;
     position: fixed;
     z-index: 6;
     left: 15%;
@@ -58,7 +58,7 @@
     height: 200vh;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
     .js {
         width: auto;
         height: 15%;
@@ -69,8 +69,14 @@
 
     .cpp {
         width: auto;
-        height: 40%;
+        height: 20%;
+        top: 30%;
+        left: 110%;
         z-index: 8;
+    }
+    .c{
+        height: 20%;
+        left: 70%;
     }
 
     .python {
@@ -78,12 +84,16 @@
         height: 30%;
         left: 10%;
     }
+    .vscode{
+        left: -1;
+        height: 20%;
+    }
 
     .java {
         width: auto;
-        height: 20%;
+        height: 30%;
         top: 50%;
-        left: 15%;
+        left: -10%;
     }
 }
 
