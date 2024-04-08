@@ -1,7 +1,10 @@
 import React from "react";
+
 import "./HeroSection.css";
 
 function Heroes({ headline, description, imgStart, img, alt }) {
+
+  
   return (
     <>
       <div className="home__hero-section _container">
@@ -22,7 +25,7 @@ function Heroes({ headline, description, imgStart, img, alt }) {
             </div>
             <div className="col">
               <div className="home__hero-img-wrapper">
-                <img src={img} alt={alt} className="home__hero-img" />
+                <img src={img} alt={alt} className="home__hero-img photu" />
               </div>
             </div>
           </div>

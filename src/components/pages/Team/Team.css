@@ -36,12 +36,14 @@ nav {
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
-    border: 1px solid rgb(177, 177, 177);
+    border: 2px solid rgb(177, 177, 177);
+    /* border-top-left:2px solid black; */
+    background-color: #191f2d;
   }
   
   .team-1:hover {
     transform: scale(1.05);
-   
+    box-shadow: 0 0 30px rgba(241, 238, 238, 0.1);
   }
   
   .team-1 .pic {

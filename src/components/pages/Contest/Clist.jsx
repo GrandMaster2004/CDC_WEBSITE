@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function ContestList() {
+ 
   const [contests, setContests] = useState([]);
 
   useEffect(() => {
@@ -24,7 +25,7 @@ function ContestList() {
       <h1>Upcoming Coding Contests</h1>
       <ul style={{display:'flex',flexDirection:'column'}}>
         {contests.map((contest) => (
-          <li key={contest.id} style={{border:'1px solid white',padding:'1rem'}}>
+          <li key={contest.id} style={{border:'1px solid white',padding:'1rem'}} >
             <h3>{contest.host}</h3>
             <a href={contest.href}><strong>{contest.event}</strong></a> - {new Date(contest.start).toLocaleString()}
           </li>

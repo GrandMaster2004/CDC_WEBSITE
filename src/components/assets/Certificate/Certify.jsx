@@ -10,14 +10,16 @@ const CertificateVerifier = () => {
   const handleVerify = async () => {
     // console.log(certificateId);
     try {
-      const response = await axios.get(`http://localhost:5000/verify/${certificateId}`, { certificateId });
+      const response = await axios.get(`${process.env.BACKEND_LINK}/verify/${certificateId}`, { certificateId });
       setVerify(true);
       console.log(response.data);
       if(verify){
         setmsg('Certificate found');
+      }else{
+        setmsg('Certificate not found');
       }
     } catch (error) {
-    
+      setmsg('Certificate not found');
       console.error('Error verifying certificate ID:');
       setVerify(false);
    

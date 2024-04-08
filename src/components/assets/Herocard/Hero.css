@@ -1,3 +1,7 @@
+*{
+    font-family: monospace;
+}
+
 .main{
     display: flex;
     max-width: 90%;
@@ -6,26 +10,65 @@
     display: flex;
     flex-wrap: wrap;
 }
+/* @import "../../../../public/img/space.png" */
+.space{
+    width: 100%;
+        /* background: url('../../../../public/img/space.png'); */
+        /* background: url('https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif'); */
+        /* background-repeat: no-repeat; */
+        /* background-position: center;
+        background-size: contain; */
+}
 .main_left{
     padding-top: 7rem;
-    font-size: 5.688rem;
+        text-align: center;
+    font-size: 6rem;
+    font-weight: 400;
     max-width: 50%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:fantasy;
     color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    /* transform: translateX(100%); */
+    z-index: 5;
+   
+    
+ 
+
+}
+.main-left::after{
+    content: "";
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0%;
+    background: #333;
+    /* transition: 0.5s; */
+    
+}
+.main-left:hover::after{
+    width:100%;
+    
 }
 .home{
     position: relative;
 }
 .main_right{
     padding-top: 4rem;
+    background: ('img/space.png');
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.logo{
+    position: relative;
+   
+}
 .main_right img{
     z-index: 2;
     width: auto;
-    height: 35rem;
+    /* height: 20rem; */
 }
 .circle_outer{
     border: 2px solid #323946;

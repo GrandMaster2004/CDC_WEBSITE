@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-
+// import Yash from "../Yash/page/Home"
 import Layer from '../Layer/Layer';
 import Herocard from '../../../assets/Herocard/Herocard';
 import "./Hero.css";
@@ -32,7 +32,8 @@ function Hero() {
      
       <Herocard/>
      <HeroSection/>
-     
+     {/* <Yash/> */}
+    
       <Layer />
     </div>
   );

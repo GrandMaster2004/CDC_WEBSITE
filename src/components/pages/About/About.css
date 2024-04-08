@@ -12,6 +12,12 @@
 .right{
     width: 40%;
 }
+.right img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 120px rgba(255, 254, 254, 0.5));
+    /* filter:invert(1); */
+}
 .title h2{
     font-size: 4rem;
     color: gray;
@@ -38,7 +44,7 @@
     align-items: center;
 
 }
-.card-body h5, p{
+.cbody h5,.cbody p{
     color: rgb(41, 40, 40);
 }
 

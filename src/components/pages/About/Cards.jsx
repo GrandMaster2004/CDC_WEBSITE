@@ -32,7 +32,7 @@ const Cards = () => {
           <div key={index} className="col-md-3 mb-4">
             <div className="card scale-on-hover">
               <img src={workflow.image} className="card-img-top" alt={workflow.title} />
-              <div className="card-body">
+              <div className="card-body cbody">
                 <h5 className="card-title">{workflow.title}</h5>
                 <p className="card-text">{workflow.description}</p>
               </div>

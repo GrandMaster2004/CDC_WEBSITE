@@ -2,6 +2,7 @@ import React from "react";
 import "./About.css";
 import Cards from "./Cards";
 import FaQ from "../../assets/FaQ/FaQ";
+import TechStack from "../../assets/Techstack/Techstack";
 function About() {
   return (
     <div>
@@ -9,8 +10,8 @@ function About() {
         <div className="left">
           <div>
             <div className="title">
-              <h2>Communicate.</h2>
-              <h2>Collaborate. Create.</h2>
+              <h2>COMMUNICATE.</h2>
+              <h2>DEVELOP. CREATE.</h2>
             </div>
             <div className="txt">
             Our first aim is not to build our society high but to build our college’s coding community high.
@@ -19,12 +20,13 @@ function About() {
           </div>
         </div>
         <div className="right">
-          <div className="imgy">
-            <img src="https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2Fassets%2Fbuild1.png?alt=media&token=a9dad0ce-a781-4433-85fa-df89a65f2c1d" alt="" />
-          </div>
+          <div className="imgy">   
+          <img src="img/logo.png" alt="" />    
+             </div>
         </div>
       </div>
       <Cards/>
+      <TechStack/>
       <FaQ/>
     </div>
   );

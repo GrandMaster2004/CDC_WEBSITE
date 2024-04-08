@@ -1,15 +1,18 @@
-import React from "react";
+import {React} from "react";
 import Heroes from "./Heroes";
-import { homeObjOne,homeObjTwo,homeObjThree,homeObjFour } from "./HeroData";
+
+import { homeObjOne,homeObjTwo } from "./HeroData";
 const HeroSection = () => {
+ 
   return (
     <div className="main">
       <div className="container _shapeAnimation">
         <Heroes {...homeObjOne} />
         <Heroes {...homeObjTwo} />
-        <Heroes {...homeObjThree} />
-        <Heroes {...homeObjFour} />
-      </div>
+        {/* <Heroes {...homeObjThree} />
+        <Heroes {...homeObjFour} />*/}
+        <img src="./img/plane.png" alt="" className="plane" />
+      </div> 
       <div />
     </div>
   );

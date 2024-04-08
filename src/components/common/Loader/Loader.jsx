@@ -30,8 +30,19 @@ function Loader() {
 
   return (
     <div className='load' ref={loaderRef}>
-      <span className="loading"></span>
-      <div className="loader"></div>
+     <div class="terminal-loader">
+  <div class="terminal-header">
+    <div class="terminal-title">Status</div>
+    <div class="terminal-controls">
+      <div class="control crox"></div>
+      <div class="control minimize"></div>
+      <div class="control maximize"></div>
+    </div>
+  </div>
+  <div class="texti"> 
+  Coders and Developers Club....</div>
+</div>
+
     </div>
   );
 }

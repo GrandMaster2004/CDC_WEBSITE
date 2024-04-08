@@ -17,6 +17,14 @@
     height: 5rem;
   }
   
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* background-color: rgba(255, 255, 255, 0.8);  */
+    backdrop-filter: blur(10px);
+  }
+  
   .nav {
 
    
@@ -38,21 +46,25 @@
   .navbar__toggle{
     display: none;
   }
+
   .navbar__link{
     padding: 0px 2rem;
     color: white;
     /* font-size: 15px; */
   }
+  .navbar__link:active{
+    color: #000000;
+    background-color: #fffffc;
+  }
   .navbar__link:hover{
     list-style: none;
     text-decoration: antiquewhite;
     /* background: white; */
-    border: 1px solid white;
-    color: #fffffc;
-    transition: .66s ease-in-out;
-
-
-    
+    /* border-bottom: 1px solid white; */
+    color: #000000;
+    background-color: #fffffc;
+    cursor:pointer;
+    transition: .26s ease-in-out;
   }
 .navbar__menu{
   display: flex;
