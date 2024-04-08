@@ -1,24 +1,10 @@
 import React from "react";
-import gsap from "gsap";
+
 import "./HeroSection.css";
-import { useEffect } from "react";
 
 function Heroes({ headline, description, imgStart, img, alt }) {
 
-  useEffect(() => {
-    const moveElement = () => {
-      const scrollPosition = window.scrollY;
-      
-      
-  gsap.to('.photu', { y: Math.sin(scrollPosition * 0.2) * 20, ease: 'none' });
-    };
-
-    window.addEventListener('scroll', moveElement);
-
-    return () => {
-      window.removeEventListener('scroll', moveElement);
-    };
-  }, []);
+  
   return (
     <>
       <div className="home__hero-section _container">

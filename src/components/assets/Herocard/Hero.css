@@ -1,3 +1,7 @@
+*{
+    font-family: monospace;
+}
+
 .main{
     display: flex;
     max-width: 90%;
@@ -18,15 +22,17 @@
 .main_left{
     padding-top: 7rem;
         text-align: center;
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 400;
-    width: 100%;
+    max-width: 50%;
     font-family:fantasy;
     color: #fff;
     text-transform: uppercase;
-    position: fixed;
+    position: relative;
     /* transform: translateX(100%); */
     z-index: 5;
+   
+    
  
 
 }
@@ -56,10 +62,8 @@
     align-items: center;
 }
 .logo{
-    position: fixed;
-    top: 10%;
-    left: 35%;
-    z-index: 99;
+    position: relative;
+   
 }
 .main_right img{
     z-index: 2;
