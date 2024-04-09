@@ -76,46 +76,9 @@ const About = () => {
         </div>
       </motion.div>
       <p className="about_text">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum ad
-        placeat consequuntur assumenda excepturi quae earum aperiam, eaque
-        facere iure. Magnam corporis error delectus numquam quasi unde et quia
-        est repudiandae blanditiis reprehenderit tempore libero voluptas aperiam
-        ipsum rerum, maiores quam aliquid exercitationem quidem ab sapiente
-        modi. Mollitia illo qui, doloribus impedit molestiae laboriosam natus
-        debitis magni necessitatibus laudantium facere ad recusandae similique
-        reprehenderit commodi, in et nostrum quisquam ea distinctio repellat
-        expedita officiis quo maiores.
-        <br />
-        Dolor ullam suscipit et beatae nesciunt laborum quasi repellat quidem ad
-        nihil aut dolores culpa dicta deleniti natus perferendis, aliquam id.
-        Voluptate culpa quisquam molestias blanditiis labore pariatur
-        perferendis earum sint, optio ex soluta veritatis cumque non beatae
-        laborum. Fugit quia magni consequatur dolorem voluptas minus eligendi
-        quod sed natus dignissimos laboriosam fuga cupiditate ipsa saepe modi
-        rerum veniam, consequuntur culpa quisquam autem aspernatur, qui
-        necessitatibus. Autem, repudiandae impedit fugiat veniam ea officia ut
-        rerum repellendus voluptas et, nisi animi ratione dolore esse vero
-        numquam quisquam sint magnam corrupti quae rem? Reiciendis delectus eos
-        dolorem accusamus. Labore amet, praesentium facilis dolorem impedit
-        quidem exercitationem autem similique! Tempora praesentium ducimus modi
-        pariatur doloribus tenetur fuga, qui enim quis optio quo sunt provident.
-        <br />
-        <br />
-        Accusamus tempore optio officiis, distinctio maxime voluptate
-        consequuntur nisi quisquam ea. Quis quidem deleniti sunt odit doloremque
-        ipsa, laudantium ipsam molestias temporibus pariatur provident debitis
-        quas, reprehenderit nemo. Quisquam earum inventore perferendis molestiae
-        explicabo, dolorum recusandae? Labore soluta illum nulla obcaecati.
-        Iusto consectetur libero quia, provident distinctio, voluptas nesciunt
-        molestiae quas enim est cupiditate dolorum nostrum voluptatem, veniam
-        excepturi? Officiis quos est atque laudantium tenetur labore, error
-        voluptate inventore placeat corporis nam eveniet cumque incidunt autem
-        culpa asperiores harum, minus delectus pariatur tempora! Possimus neque
-        debitis adipisci ipsam natus voluptatem dolor ad cumque id ab inventore
-        eos aliquam voluptates repudiandae non laboriosam, provident doloribus
-        voluptas porro optio et ex. Doloribus, in sint quidem illo minus, omnis
-        possimus harum doloremque amet itaque optio facere delectus adipisci
-        fugiat, voluptatem nobis
+      At Coders and Developers Club MMUT, our primary goal is to prioritize the growth and excellence of our college’s coding culture. Our aim is to foster a culture of constant learning and improvement among our students, ensuring they are always enhancing their technological skills. We organize sessions to create awareness about the significance of coding and other tech domains, particularly among new students, and encourage consistent participation in contests and coding practice to instill a sense of continuity. Collaborating with faculty advisors and alumni, we introduce new and industry-demanded skills, ensuring our coding community stays ahead of the curve.
+      <br/>
+       We follow practices that maintain our society's active status, engaging members in various activities and initiatives consistently. This vision encapsulates our commitment to inspiring, educating, and building a vibrant community at the forefront of technological innovation. Together, we'll write the code of collaboration, compiling every byte of our efforts in an unbreakable loop until you reach your technical destination
       </p>
     </motion.div>
   );

@@ -10,13 +10,7 @@ const Goal_card = () => {
       <div className="content">
         <h4 className="title">Our goal</h4>
         <p className="content_text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, quod
-          quidem id officia iste, minima illum inventore facere hic soluta harum
-          tempora dolor fuga dicta neque rem? Quidem, beatae distinctio. Lorem
-          ipsum dolor sit amet consectetur adipisicing elit. Cum odio nobis
-          architecto reprehenderit, doloremque aperiam quae tenetur porro ullam
-          eligendi fugiat impedit eaque ea nostrum minima aspernatur optio ut
-          cumque!
+        We strive to create an environment of continuous learning and growth, where every member is encouraged to expand their skill set and embrace emerging technologies. Through a combination of workshops, seminars, and hands-on projects, we aim to equip our members with the knowledge and expertise needed to excel in today's fast-paced tech industry.
         </p>
       </div>
     </div>

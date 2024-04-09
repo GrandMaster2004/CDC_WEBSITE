@@ -7,7 +7,9 @@
   /* overflow-x: hidden; */
 }
 .main_left {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
+  margin-top: 2px;
+
   max-width: 50%;
   color: #fff;
   flex-wrap: wrap;
@@ -38,15 +40,18 @@
 }
 
 .main_right {
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   margin: 0 auto;
   max-width: 50%;
 }
 
 .code_img {
-  padding-top: 2rem;
+  /* padding-top: -1rem; */
   transition: transform 0.5s;
   margin: 0 auto;
+
+  width: auto;
+  height: 70%;
 }
 .code_img:hover {
   transform: rotate(-4deg);
@@ -85,18 +90,18 @@
   width: 28rem;
   height: 30rem;
   border-radius: 50% 50% 50% 50%;
-  position: relative;
+  position: absolute;
   filter: blur(100px);
   opacity: 27%;
 }
 .spot_right3 {
   background: #fb9014;
   left: -150px;
-  bottom: 45rem;
+  bottom: 85rem;
 }
 .spot_right5 {
   background: #7b8fd9;
-  top: 150rem;
+  bottom: 0rem;
   right: -0px;
 }
 .spot_right2 {
