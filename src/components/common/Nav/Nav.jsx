@@ -1,60 +1,45 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import './nav.css'; // Import your CSS file
-function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
-  const [big, setbig] = useState(false);
-
-  useEffect(() => {
-    if (window.innerWidth < 1170) {
-      setbig(false);
-    } else {
-      setbig(true);
-    }
-  });
-
-  const toggleNavbar = () => {
-    if (window.innerWidth < 1170) {
-      setIsOpen(!isOpen);
-    }
-  };
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./nav.css"; // Import your CSS file
+function Nav() {
   return (
-    <div className={`navbar ${big ? 'sticky' : ''}`}>
-      <div className="container">
-        <div className="navbar__brand">
-          <img src="./img/navlogo.png" alt="Logo" className="navbar__logo" />
-        </div>
-        <button className="navbar__toggle" onClick={toggleNavbar}></button>
-        <div className={`navbar__menu ${isOpen ? 'active' : ''}`}>
-          <Link to="/" className="navbar__link" onClick={toggleNavbar}>
+    <nav className="navbar">
+      <div className="logo">Brand</div>
+      <input type="checkbox" id="click" />
+      <label htmlFor="click" className="menu-btn">
+        <i className="fas fa-bars"></i>
+      </label>
+
+      <ul>
+        <li>
+          <NavLink to={"/"} className="">
             Home
-          </Link>
-          <Link to="/about" className="navbar__link" onClick={toggleNavbar}>
-            About
-          </Link>
-          <Link to="/team" className="navbar__link" onClick={toggleNavbar}>
-            Team
-          </Link>
-          <Link to="/event" className="navbar__link" onClick={toggleNavbar}>
-            Event
-          </Link>
-          <Link to="/contact" className="navbar__link" onClick={toggleNavbar}>
-            Contact
-          </Link>
-          <Link to="/contest" className="navbar__link" onClick={toggleNavbar}>
-            Contests
-          </Link>
-          <Link to="/query" className="navbar__link" onClick={toggleNavbar}>
-            Query
-          </Link>
-          <Link to="/verify" className="navbar__link" onClick={toggleNavbar}>
-            Verify
-          </Link>
-        </div>
-      </div>
-    </div>
+          </NavLink>
+        </li>
+        {/* <li>
+          <NavLink to={"/about"}>About</NavLink>
+        </li> */}
+        <li>
+          <NavLink to={"/team"}>Team</NavLink>
+        </li>
+        <li>
+          <NavLink to={"/event"}>Event</NavLink>
+        </li>
+        <li>
+          <NavLink to={"/contact"}>Contact</NavLink>
+        </li>
+        <li>
+          <NavLink to={"/contest"}>Contests</NavLink>
+        </li>
+        <li>
+          <NavLink to={"/query"}>Query</NavLink>
+        </li>
+        <li>
+          <NavLink to={"/verify"}>Verify</NavLink>
+        </li>
+      </ul>
+    </nav>
   );
 }
 
-export default Navbar;
+export default Nav;

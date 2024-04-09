@@ -1,10 +1,8 @@
-import React from 'react';
-import { useEffect } from 'react';
-import "./Team.css"
+import React from "react";
+// import { useEffect } from 'react';
+import "./Team.css";
 
 const TeamCard = ({ member }) => {
-  
- 
   return (
     <div className="col-lg-3 col-md-6 p-5 teamcard">
       <div className="team-1">
@@ -15,10 +13,10 @@ const TeamCard = ({ member }) => {
           <h4>{member.name}</h4>
           <span>{member.position}</span>
           <div className="social">
-            <a href={`mailto:${member.gmail}`} >
+            <a href={`mailto:${member.gmail}`}>
               <i className="fa-solid fa-envelope"></i>
             </a>
-            <a href={member.insta} >
+            <a href={member.insta}>
               <i className="fab fa-instagram"></i>
             </a>
             <a href={member.linkedin}>
