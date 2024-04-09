@@ -18,6 +18,7 @@ const Timeline = () => {
         <div className="roadmap_main left-roadmap">
           <DiAndroid className="img" />
           <div className="text-box">
+            
             <h2>Syntax Seige</h2>
             <small>2018 - 2019</small>
             <p>

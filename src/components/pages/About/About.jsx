@@ -14,8 +14,7 @@ function About() {
               <h2>DEVELOP. CREATE.</h2>
             </div>
             <div className="txt">
-              Lorem ipsum dolor, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, repudiandae! sit amet consectetur 
-              illo.
+            Our first aim is not to build our society high but to build our college’s coding community high.
             </div>
             <button className="btn">Get Started</button>
           </div>
