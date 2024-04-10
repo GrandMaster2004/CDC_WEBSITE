@@ -7,8 +7,9 @@ import VanillaTilt from "vanilla-tilt";
 import Roadmap from "../../Yash/Roadmap";
 import { motion } from "framer-motion";
 
+import Carousal from "../../../assets/Testimonial/Testimonial.jsx";
 import Layer from "../Layer/Layer";
-import Herocard from "../../../assets/Herocard/Herocard";
+// import Herocard from "../../../assets/Herocard/Herocard";
 import "./Hero.css";
 import HeroSection from "../../../assets/HeroSection/HeroSection";
 
@@ -73,6 +74,10 @@ function Hero() {
       <About />
       <Goal />
       <Roadmap />
+      {/* <Herocard/> */}
+      <Carousal/>
+      <HeroSection/>
+      <Layer/>
     </div>
   );
 }

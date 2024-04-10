@@ -1,9 +1,9 @@
 import React from "react";
-import Goal_card from "./Goal_card";
+import Goalcard from "./Goal_card";
 import "./Goal.css";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 // import { fadeIn } from "../variants";
-import Our_goal from "./Our_goal";
+import Ourgoal from "./Our_goal";
 import VanillaTilt from "vanilla-tilt";
 import { useEffect } from "react";
 const Goal = () => {
@@ -18,13 +18,13 @@ const Goal = () => {
   return (
     <div className="goal_content">
       <div className="goal_left tilt grow_hover" style={{ "--clr": "#fb9014" }}>
-        <Goal_card />
+        <Goalcard />
       </div>
       <div
         className="goal_right tilt grow_hover"
         style={{ "--clr": "#7b8fd9" }}
       >
-        <Our_goal />
+        <Ourgoal />
       </div>
     </div>
   );
