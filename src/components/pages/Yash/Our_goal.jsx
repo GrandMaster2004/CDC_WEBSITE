@@ -10,10 +10,7 @@ const Our_goal = () => {
       <div className="content">
         <h4 className="title">Mission</h4>
         <p className="content_text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-          autem illo quasi fugit commodi eaque iusto deleniti illum, vel, sit
-          aperiam soluta, voluptatem recusandae. Nisi beatae autem dolorum
-          placeat
+        Beyond the confines of our campus, we are ambassadors for change, seeking to make a positive impact on the world through our work. Whether through outreach programs, philanthropic initiatives, or partnerships with industry leaders, we are dedicated to using our skills and expertise to drive meaningful change and create a brighter future for all.
         </p>
       </div>
     </div>

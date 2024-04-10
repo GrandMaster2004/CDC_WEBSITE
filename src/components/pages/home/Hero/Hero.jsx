@@ -45,17 +45,16 @@ function Hero() {
               <div className="left_text">
                 <h3>Title</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque
-                  optio explicabo vitae libero at pariatur commodi eius officiis
-                  debitis excepturi?
+                Our primary goal is to prioritise the growth and excellence of our college’s coding culture.
+
+
                 </p>
               </div>
               <div className="right_text">
                 <h3>Title</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Reprehenderit nihil maxime magnam quas adipisci placeat
-                  asperiores nesciunt.
+                Organise sessions to create awareness about the significance of coding and other tech domains, especially among new students.
+
                 </p>
               </div>
             </div>
@@ -64,8 +63,7 @@ function Hero() {
         </motion.div>
 
         <div className="main_right">
-          {/* <img src="img/rayso.svg" alt="img" className="code_img" /> */}
-          <h1>rayso </h1>
+          <img src="img/CDC.png" alt="img" className="code_img" />
         </div>
       </div>
       <span className="spot_common spot_right3"></span>
