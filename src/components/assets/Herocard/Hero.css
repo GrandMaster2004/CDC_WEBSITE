@@ -10,19 +10,13 @@
   display: flex;
   flex-wrap: wrap;
 }
-/* @import "../../../../public/img/space.png" */
+
 .space {
   width: 100%;
-  /* background: url('../../../../public/img/space.png'); */
-  /* background: url('https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif'); */
-  /* background-repeat: no-repeat; */
-  /* background-position: center;
-        background-size: contain; */
 }
 
 .main_left {
-  padding-top: 7rem;
-  /* text-align: center; */
+  padding-top: 5rem;
   font-size: 6rem;
   font-weight: 400;
   max-width: 50%;
@@ -30,7 +24,6 @@
   color: #fff;
   text-transform: uppercase;
   position: relative;
-  /* transform: translateX(100%); */
   z-index: 5;
 }
 .main-left::after {
@@ -41,7 +34,6 @@
   height: 3px;
   width: 0%;
   background: #333;
-  /* transition: 0.5s; */
 }
 .main-left:hover::after {
   width: 100%;
@@ -50,11 +42,10 @@
   position: relative;
 }
 .main_right {
-  /* padding-top: 4rem; */
   background: ("img/space.png");
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 4rem;
 }
 .logo {
   position: relative;
@@ -62,17 +53,6 @@
 .main_right img {
   z-index: 2;
   width: auto;
-  /* height: 20rem; */
-}
-.circle_outer {
-  border: 2px solid #323946;
-  width: 28rem;
-  height: 28rem;
-  border-radius: 50%;
-  position: absolute;
-  -webkit-animation: spin 7s linear infinite;
-  -moz-animation: spin 7s linear infinite;
-  animation: spin 7s linear infinite;
 }
 
 @keyframes spin {
@@ -91,7 +71,7 @@
   }
 }
 
-.circle_inner {
+/* .circle_inner {
   width: 22rem;
   height: 22rem;
   border-radius: 50%;
@@ -101,8 +81,8 @@
     rgba(116, 184, 195, 1) 100%
   );
   position: absolute;
-  /* -webkit-text-stroke:  linear-gradient(262deg, rgba(216, 151, 194, 1) 0%, rgba(116, 184, 195, 1) 100%);; */
-}
+  -webkit-text-stroke:  linear-gradient(262deg, rgba(216, 151, 194, 1) 0%, rgba(116, 184, 195, 1) 100%);;
+} */
 
 .club_text {
   background: linear-gradient(

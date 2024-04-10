@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 // import rayso from "../../../../components/assets/rayso.svg";
 // import "./Home.css";
-import About from "../../Yash/About";
-import Goal from "../../Yash/Goal";
+import About from "../../Landing/About";
+import Goal from "../../Landing/Goal";
 import VanillaTilt from "vanilla-tilt";
-import Roadmap from "../../Yash/Roadmap";
+import Roadmap from "../../Landing/Roadmap";
 import { motion } from "framer-motion";
 
 import Carousal from "../../../assets/Testimonial/Testimonial.jsx";
@@ -46,16 +46,16 @@ function Hero() {
               <div className="left_text">
                 <h3>Title</h3>
                 <p>
-                Our primary goal is to prioritise the growth and excellence of our college’s coding culture.
-
-
+                  Our primary goal is to prioritise the growth and excellence of
+                  our college’s coding culture.
                 </p>
               </div>
               <div className="right_text">
                 <h3>Title</h3>
                 <p>
-                Organise sessions to create awareness about the significance of coding and other tech domains, especially among new students.
-
+                  Organise sessions to create awareness about the significance
+                  of coding and other tech domains, especially among new
+                  students.
                 </p>
               </div>
             </div>
