@@ -136,4 +136,7 @@ body {
   .footer-col {
     width: 50%;
   }
+  .footer{
+    height: 65vh;
+  }
 }
