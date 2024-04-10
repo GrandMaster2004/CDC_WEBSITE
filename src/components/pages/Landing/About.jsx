@@ -76,9 +76,24 @@ const About = () => {
         </div>
       </motion.div>
       <p className="about_text">
-      At Coders and Developers Club MMUT, our primary goal is to prioritize the growth and excellence of our college’s coding culture. Our aim is to foster a culture of constant learning and improvement among our students, ensuring they are always enhancing their technological skills. We organize sessions to create awareness about the significance of coding and other tech domains, particularly among new students, and encourage consistent participation in contests and coding practice to instill a sense of continuity. Collaborating with faculty advisors and alumni, we introduce new and industry-demanded skills, ensuring our coding community stays ahead of the curve.
-      <br/>
-       We follow practices that maintain our society's active status, engaging members in various activities and initiatives consistently. This vision encapsulates our commitment to inspiring, educating, and building a vibrant community at the forefront of technological innovation. Together, we'll write the code of collaboration, compiling every byte of our efforts in an unbreakable loop until you reach your technical destination
+        At Coders and Developers Club MMUT, our primary goal is to prioritize
+        the growth and excellence of our college’s coding culture. Our aim is to
+        foster a culture of constant learning and improvement among our
+        students, ensuring they are always enhancing their technological skills.
+        We organize sessions to create awareness about the significance of
+        coding and other tech domains, particularly among new students, and
+        encourage consistent participation in contests and coding practice to
+        instill a sense of continuity. Collaborating with faculty advisors and
+        alumni, we introduce new and industry-demanded skills, ensuring our
+        coding community stays ahead of the curve.
+        <br />
+        We follow practices that maintain our society's active status, engaging
+        members in various activities and initiatives consistently. This vision
+        encapsulates our commitment to inspiring, educating, and building a
+        vibrant community at the forefront of technological innovation.
+        Together, we'll write the code of collaboration, compiling every byte of
+        our efforts in an unbreakable loop until you reach your technical
+        destination
       </p>
     </motion.div>
   );

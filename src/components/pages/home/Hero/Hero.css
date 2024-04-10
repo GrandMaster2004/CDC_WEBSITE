@@ -40,13 +40,11 @@
 }
 
 .main_right {
-  /* padding-top: 1rem; */
   margin: 0 auto;
   max-width: 50%;
 }
 
 .code_img {
-  /* padding-top: -1rem; */
   transition: transform 0.5s;
   margin: 0 auto;
 
