@@ -4,7 +4,9 @@ import "./nav.css"; // Import your CSS file
 function Nav() {
   return (
     <nav className="navbar">
-      <div className="logo">Brand</div>
+      <div className="logo">
+        <img src="img/navlogo.png" alt="" />
+      </div>
       <input type="checkbox" id="click" />
       <label htmlFor="click" className="menu-btn">
         <i className="fas fa-bars"></i>
@@ -22,9 +24,9 @@ function Nav() {
         <li>
           <NavLink to={"/team"}>Team</NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to={"/event"}>Event</NavLink>
-        </li>
+        </li> */}
         <li>
           <NavLink to={"/contact"}>Contact</NavLink>
         </li>

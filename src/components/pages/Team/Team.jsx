@@ -18,7 +18,7 @@ function Team() {
   return (
     <div>
      <FacultyAdvisor/>
-      <nav>
+      <div style={{background:'bottom'}} className='team_btn'>
         <ul>
           <li><button onClick={() => showTeam(0)}>Alumni(18-22)</button></li>
           <li><button onClick={() => showTeam(1)}>Alumni(19-23)</button></li>
@@ -26,7 +26,7 @@ function Team() {
           <li><button onClick={() => showTeam(3)}>2021-25</button></li>
           <li><button onClick={() => showTeam(4)}>2022-26</button></li>
         </ul>
-      </nav>
+      </div>
 
       <div>
         {/* Render the selected team based on the state */}

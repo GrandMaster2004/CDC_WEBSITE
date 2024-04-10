@@ -106,4 +106,7 @@ input[type="checkbox"] {
     background: none;
     color: cyan;
   }
+  .logo{
+    display: none;
+  }
 }

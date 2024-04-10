@@ -5,15 +5,15 @@ import About from "../../Landing/About";
 import Goal from "../../Landing/Goal";
 import VanillaTilt from "vanilla-tilt";
 import Roadmap from "../../Landing/Roadmap";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import Carousal from "../../../assets/Testimonial/Testimonial.jsx";
 import Layer from "../Layer/Layer";
 // import Herocard from "../../../assets/Herocard/Herocard";
 import "./Hero.css";
 import HeroSection from "../../../assets/HeroSection/HeroSection";
-
 function Hero() {
+
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
       max: 2,
@@ -37,21 +37,21 @@ function Hero() {
     <div className="home">
       <span className="top_shadow"></span>
       <div className="main">
-        <motion.div className="main_left">
+        <div className="main_left">
           <div className="coders_title">
             <span className="coders_text">Coders & Developers</span>
             <br />
             <span className="club_text">Club</span>
             <div className="text_bottom">
               <div className="left_text">
-                <h3>Title</h3>
+                <h3>Vision</h3>
                 <p>
                   Our primary goal is to prioritise the growth and excellence of
                   our college’s coding culture.
                 </p>
               </div>
               <div className="right_text">
-                <h3>Title</h3>
+                <h3>Aim</h3>
                 <p>
                   Organise sessions to create awareness about the significance
                   of coding and other tech domains, especially among new
@@ -61,7 +61,7 @@ function Hero() {
             </div>
           </div>
           <span className="spot_left"></span>
-        </motion.div>
+        </div>
 
         <div className="main_right">
           <img src="img/CDC.png" alt="img" className="code_img" />
@@ -75,8 +75,8 @@ function Hero() {
       <Goal />
       <Roadmap />
       {/* <Herocard/> */}
-      <Carousal/>
       <HeroSection/>
+      <Carousal/>
       <Layer/>
     </div>
   );

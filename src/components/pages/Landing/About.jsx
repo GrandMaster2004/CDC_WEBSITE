@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGoogle } from "react-icons/fa6";
-import { motion, useScroll } from "framer-motion";
+// import { motion, useScroll } from "framer-motion";
 // import { fadeIn } from "../variants";
 import { DiLinux } from "react-icons/di";
 import { IoCodeSlashOutline } from "react-icons/io5";
@@ -14,7 +14,7 @@ import VanillaTilt from "vanilla-tilt";
 import { useEffect } from "react";
 
 const About = () => {
-  const { scrollYProgress } = useScroll();
+  // const { scrollYProgress } = useScroll();
 
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -25,7 +25,7 @@ const About = () => {
     });
   });
   return (
-    <motion.div
+    <div
       initial={{ opacity: 0, scale: 0.5 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{
@@ -38,27 +38,27 @@ const About = () => {
     >
       <h1>About Us</h1>
       <div className="icons_icon">
-        <motion.span>
+        <span>
           <IoCodeSlashOutline className="icon icon_box" />
-        </motion.span>
-        <motion.span>
+        </span>
+        <span>
           <DiLinux className="icon icon_box" />
-        </motion.span>
+        </span>
         <img
           className="git_img img_glowing"
           src="https://www.copsiitbhu.co.in/static/assets/img/landing/avatar.jpg"
           alt="img"
         />
-        <motion.span>
+        <span>
           <DiLinux className="icon icon_box" />
-        </motion.span>
-        <motion.span>
+        </span>
+        <span>
           <IoCodeSlashOutline className="icon icon_box" />
-        </motion.span>
+        </span>
       </div>
 
       <p className="cdc">Coders & Developer Club || MMMUT Gorakhapur</p>
-      <motion.div className="icons">
+      <div className="icons">
         <div>
           <FiGithub className="li_item" />
         </div>
@@ -74,9 +74,9 @@ const About = () => {
         <div>
           <FaGoogle />
         </div>
-      </motion.div>
+      </div>
       <p className="about_text">
-        At Coders and Developers Club MMUT, our primary goal is to prioritize
+        At Coders and Developers Club MMMUT, our primary goal is to prioritize
         the growth and excellence of our college’s coding culture. Our aim is to
         foster a culture of constant learning and improvement among our
         students, ensuring they are always enhancing their technological skills.
@@ -95,7 +95,7 @@ const About = () => {
         our efforts in an unbreakable loop until you reach your technical
         destination
       </p>
-    </motion.div>
+    </div>
   );
 };
 

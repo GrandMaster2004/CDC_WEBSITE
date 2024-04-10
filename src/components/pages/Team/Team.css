@@ -1,6 +1,6 @@
 /* Team.css */
 
-nav {
+.team_btn {
     display: flex;
     justify-content: center;
     align-items: center;

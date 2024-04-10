@@ -1,21 +1,24 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState } from "react";
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-import './testimonial.css';
-import Testidata from './testi.json';
+import "./testimonial.css";
+import Testidata from "./testi.json";
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 export default function App() {
   return (
     <>
-       <Swiper
+      <h1 style={{ width: "100%", textAlign: "center" }}>
+        What Others Thought about Us
+      </h1>
+      <Swiper
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -32,11 +35,15 @@ export default function App() {
         {Testidata.map((item, index) => (
           <SwiperSlide key={index}>
             <div className="slide-content">
-              <div className='item'>
-              <div className="slide-img"><img src={item.image} alt={item.name} /></div>
-              <div className="slide-name">{item.name}</div>
-              <div className="slide-position">{item.position}</div>
-              <div className="slide-description">{item.description}</div>
+              <div className="item">
+                <div className="slide-img">
+                  <img src={item.image} alt={item.name} />
+                </div>
+                <div className="text">
+                  <div className="slide-name">{item.name}</div>
+                  <div className="slide-position">{item.branch}</div>
+                  <div className="slide-description">{item.description}</div>
+                </div>
               </div>
             </div>
           </SwiperSlide>

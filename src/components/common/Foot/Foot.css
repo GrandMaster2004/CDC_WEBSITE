@@ -17,6 +17,7 @@ body {
 }
 
 .footer {
+  font-family: monospace;
   /* background-color: #151515; */
   background-color: #171c24;
   padding: 80px 0;

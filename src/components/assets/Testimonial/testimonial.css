@@ -30,17 +30,19 @@
     backdrop-filter: blur(5px);
     border: 2px solid wheat;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
   }
   .slide-img img{
     width: auto;
-    height: 8rem;
+    height: 10rem;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 10px;
     border: 2px solid #fff;
     
   }
   .slide-img{
-    
+    width: -webkit-fill-available;
     display: flex;
     justify-content: center;
         align-items: center;
@@ -52,5 +54,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex-direction: column;
+  }
+  .slide-description{
+    font-family: system-ui;
+    font-weight: 200;
+    margin: 1rem;
+    font-size: 16px;
+
+    
+  }
+  .item.text{
+    width: fit-content;
+  }
+  @media (max-width:920px) {
+    .item{
+      display: block;
+      width: 80%;
+    }
+     
+
   }
