@@ -1,5 +1,11 @@
 [
   {
+    "name": "Yash Vardhan Gond",
+    "branch": "Information Technology",
+    "image":"img/yashvardhan.jpg",
+    "description": "Being a member of our coding and developers club has been an enriching experience. The club's workshops and coding challenges have helped me improve my problem-solving skills and think creatively. I would recommend the club to anyone looking to enhance their coding skills in a supportive environment."
+  },
+  {
     "name": "Himanshu Verma",
     "branch": "Information Technology",
     "image": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2022-26%2Fhimanshu%20verma.jpg?alt=media&token=41b76d08-a39f-43f8-be40-b42a0a464dc0",
@@ -8,7 +14,7 @@
   {
     "name": "Aditya Gaur",
     "branch": "Computer Science",
-    "image": "https://firebasestorage.googleapis.com/v0/b/test1-80c19.appspot.com/o/Codechef_team%2FTeam_2022-26%2FAditya%20Gaur%20-%20Aditya.jpg?alt=media&token=656076fc-c10b-4890-a9a7-290aab5dfd82",
+    "image":"img/adgaur.jpg",
     "description": "Joining The Coders and Developers Club has been a transformative experience. From learning new programming languages to participating in coding contests, the club has provided me with numerous opportunities to grow as a coder. I highly recommend the club to anyone looking to dive deep into the world of coding."
   },
   {
