@@ -16,7 +16,7 @@ const Timeline = () => {
         <div className="roadmap_main left-roadmap">
           <DiAndroid className="img" />
           <div className="text-box">
-            <h2>Syntax Seige '24</h2>
+ <h2>Syntax Seige '24</h2>
             <small>Mar 2024</small>
             <p>
             The Syntax Siege event spans seven days, featuring five days coding classes led by seniors covering diverse topics. Participants engage in online and offline coding contests, testing their skills in problem-solving and algorithmic thinking.The online contest offers virtual competition, while the offline contest fosters camaraderie in a physical setting.
