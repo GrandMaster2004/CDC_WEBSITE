@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+
 function Contact() {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
@@ -40,7 +41,7 @@ function Contact() {
           />
 
           <form>
-            <h1 className="title text-center mb-4">Talk to Us</h1>
+            <h1 className="title text-center mb-4">CONTACT US</h1>
 
             <div className="form-group position-relative">
               <label htmlFor="formName" className="d-block">
@@ -94,6 +95,7 @@ function Contact() {
           </form>
         </div>
       </div>
+    
     </div>
   );
 }

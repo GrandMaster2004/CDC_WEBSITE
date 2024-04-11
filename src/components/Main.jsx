@@ -14,6 +14,7 @@ import AdminForm from "../components/pages/Admin/Form";
 import Addcerti from "../components/pages/Admin/Addcerti";
 // import Contest from '../components/pages/Contest/Contest.jsx'
 import CertificateVerifier from "./assets/Certificate/Certify.jsx";
+import ScrollToTop from "./common/Scroll/Scroll.jsx";
 
 import ContestList from "./pages/Contest/Clist.jsx";
 function Main() {
@@ -40,6 +41,7 @@ function Main() {
 
           <div>
             <Nav />
+            <ScrollToTop/>
             <Routes>
               <Route exact path="/" element={<Hero />} />
               <Route exact path="/about" element={<About />} />
