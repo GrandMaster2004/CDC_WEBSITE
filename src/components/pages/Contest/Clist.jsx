@@ -21,7 +21,7 @@ function ContestList() {
   }, []);
 
   return (
-    <div style={{padding:'4rem',minHeight:'50vh'}}>
+    <div style={{padding:'3rem',minHeight:'50vh'}}>
       <h1>Upcoming Coding Contests</h1>
       <ul style={{display:'flex',flexDirection:'column'}}>
         {contests.map((contest) => (

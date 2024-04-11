@@ -9,6 +9,7 @@
   .loading{
     width: 100%;
     text-align: center;
+    height: 5rem;
     font-size: 4rem;
     color: #3498db;
   }
@@ -109,6 +110,6 @@
   
   @media (max-width:512px) {
     button{
-      font-size: 10px;
+      font-size: 6px;
     }
   }

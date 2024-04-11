@@ -1,20 +1,32 @@
 import React from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "./nav.css"; // Import your CSS file
+import "./nav.css"; 
 function Nav() {
+
+  const [isActive, setIsActive] = useState(false);
+
+  const toggleMenu = () => {
+    setIsActive(!isActive);
+  };
+
   return (
+
+
     <nav className="navbar">
       <div className="logo">
         <img src="img/navlogo.png" alt="" />
       </div>
-      <input type="checkbox" id="click" />
+      <input type="checkbox" id="click" 
+       checked={isActive}
+       onChange={toggleMenu}/>
       <label htmlFor="click" className="menu-btn">
         <i className="fas fa-bars"></i>
       </label>
 
       <ul>
         <li>
-          <NavLink to={"/"} className="">
+          <NavLink to={"/"} onClick={toggleMenu}>
             Home
           </NavLink>
         </li>
@@ -22,22 +34,22 @@ function Nav() {
           <NavLink to={"/about"}>About</NavLink>
         </li> */}
         <li>
-          <NavLink to={"/team"}>Team</NavLink>
-        </li>
+          <NavLink to={"/team"}  onClick={toggleMenu}>Team</NavLink>
+        </li> 
         {/* <li>
           <NavLink to={"/event"}>Event</NavLink>
         </li> */}
         <li>
-          <NavLink to={"/contact"}>Contact</NavLink>
+          <NavLink to={"/contact"}  onClick={toggleMenu} >Contact</NavLink>
         </li>
         <li>
-          <NavLink to={"/contest"}>Contests</NavLink>
+          <NavLink to={"/contest"}  onClick={toggleMenu}>Contests</NavLink>
         </li>
         <li>
-          <NavLink to={"/query"}>Query</NavLink>
+          <NavLink to={"/query"} onClick={toggleMenu} >Query</NavLink>
         </li>
         <li>
-          <NavLink to={"/verify"}>Verify</NavLink>
+          <NavLink to={"/verify"}  onClick={toggleMenu}>Verify</NavLink>
         </li>
       </ul>
     </nav>

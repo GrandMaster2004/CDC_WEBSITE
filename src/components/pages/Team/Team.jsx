@@ -34,7 +34,7 @@ function Team() {
         </ul>
       </div>
            
-        <Suspense fallback={<div className='loading'>loading .....</div>}>
+        <Suspense fallback={<div className='loading'>Loading.....</div>}>
       <div>
         {selectedTeam === 0 && <Team0 />}
         {selectedTeam === 1 && <Team1 />}
