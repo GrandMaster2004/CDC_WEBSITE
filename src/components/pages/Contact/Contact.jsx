@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+
 function Contact() {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
@@ -94,6 +95,7 @@ function Contact() {
           </form>
         </div>
       </div>
+    
     </div>
   );
 }
