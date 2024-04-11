@@ -13,7 +13,6 @@ import Layer from "../Layer/Layer";
 import "./Hero.css";
 import HeroSection from "../../../assets/HeroSection/HeroSection";
 function Hero() {
-
   useEffect(() => {
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
       max: 2,
@@ -54,8 +53,7 @@ function Hero() {
                 <h3>Aim</h3>
                 <p>
                   Organise sessions to create awareness about the significance
-                  of coding and other tech domains, especially among new
-                  students.
+                  of coding and other tech domains.
                 </p>
               </div>
             </div>
@@ -75,9 +73,9 @@ function Hero() {
       <Goal />
       <Roadmap />
       {/* <Herocard/> */}
-      <HeroSection/>
-      <Carousal/>
-      <Layer/>
+      <HeroSection />
+      <Carousal />
+      <Layer />
     </div>
   );
 }
