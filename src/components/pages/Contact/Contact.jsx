@@ -40,7 +40,7 @@ function Contact() {
           />
 
           <form>
-            <h1 className="title text-center mb-4">Talk to Us</h1>
+            <h1 className="title text-center mb-4">CONTACT US</h1>
 
             <div className="form-group position-relative">
               <label htmlFor="formName" className="d-block">
