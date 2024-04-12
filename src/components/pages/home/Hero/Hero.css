@@ -51,7 +51,8 @@
 .left_text {
   max-width: 45%;
   text-align: left;
-  word-spacing: 3px;
+  word-spacing: 2px;
+  line-height: 20px;
 }
 .right_text,
 .left_text {
