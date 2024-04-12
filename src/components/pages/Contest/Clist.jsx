@@ -27,18 +27,17 @@ function ContestList() {
     "codeforces.com/gyms",
     "geeksforgeeks.org",
   ];
-  function check(e) {
-    for (let i = 0; i < arr.length(); i++) {
-      if (arr[i] == e) return 1;
-    }
-  }
-  // const [new_contests, set_newContests] = useState([]);
-  // contests.map((contest)=>{
-  //   if(contest.host==arr.find(check(contest.host))){
-
-  //   }else{
-
+  // function check(e) {
+  //   for (let i = 0; i < arr.length; i++) {
+  //     if (arr[i] == e) return 1;
   //   }
+  // }
+
+  // const [new_contests, setnew_Contests] = useState([null]);
+  // const newContests = contests.filter((contest) => contest.host == arr.find(check(contest.host)));
+  // setnew_Contests(newcontests);
+  // contests.map((contest)=>{
+
   // })
   return (
     <div className="contests">
