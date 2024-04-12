@@ -4,7 +4,15 @@
   margin: 0 auto;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 4rem;
+  margin-top: 5rem;
+}
+.vis{
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+  font-size: 18px;
+  font-family: 'Lucida Console';
 }
 /* .main_left {
   padding-top: 5rem;
@@ -22,7 +30,7 @@
 .main_left {
   /* padding-top: 5rem; */
   padding-left: 4rem;
-  margin-top: 1rem;
+  margin-top: 2px;
 
   max-width: 50%;
   color: #fff;
@@ -37,7 +45,7 @@
   font-size: 15px;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .right_text,
 .left_text {
@@ -71,8 +79,12 @@
 .code_img:hover {
   transform: rotate(-4deg);
 }
+.coders_text{
+  font-size: 95px;
+}
 
 .club_text {
+  font-size: 95px;
   background: linear-gradient(
     151deg,
     rgba(255, 255, 255, 1) 0%,
